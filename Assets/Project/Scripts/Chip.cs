@@ -5,12 +5,12 @@ using UnityEngine;
 public class Chip : MonoBehaviour
 {
     private Transform _transform;
-    private TMPro.TextMeshProUGUI _text;
+    private TMPro.TextMeshProUGUI _chiplevel;
     
     void Start()
     {
         _transform = GetComponent<Transform>();
-        _text = GetComponent<TMPro.TextMeshProUGUI>();
+        _chiplevel = GetComponent<TMPro.TextMeshProUGUI>();
     }
 
     void Update()
